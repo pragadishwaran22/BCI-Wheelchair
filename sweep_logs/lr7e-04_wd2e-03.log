@@ -1,0 +1,227 @@
+Loading multiple subjects from: data
+Found 27 .csv files
+
+Loading: B0101T.csv
+Loading CSV file: data\B0101T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0102T.csv
+Loading CSV file: data\B0102T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0103T.csv
+Loading CSV file: data\B0103T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0201T.csv
+Loading CSV file: data\B0201T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0202T.csv
+Loading CSV file: data\B0202T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0203T.csv
+Loading CSV file: data\B0203T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0301T.csv
+Loading CSV file: data\B0301T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0302T.csv
+Loading CSV file: data\B0302T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0303T.csv
+Loading CSV file: data\B0303T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0401T.csv
+Loading CSV file: data\B0401T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0402T.csv
+Loading CSV file: data\B0402T.csv
+Created 140 windows with shape (140, 6, 1000)
+Label distribution: [70 70]
+
+Loading: B0403T.csv
+Loading CSV file: data\B0403T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0501T.csv
+Loading CSV file: data\B0501T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0502T.csv
+Loading CSV file: data\B0502T.csv
+Created 140 windows with shape (140, 6, 1000)
+Label distribution: [70 70]
+
+Loading: B0503T.csv
+Loading CSV file: data\B0503T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0601T.csv
+Loading CSV file: data\B0601T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0602T.csv
+Loading CSV file: data\B0602T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0603T.csv
+Loading CSV file: data\B0603T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0701T.csv
+Loading CSV file: data\B0701T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0702T.csv
+Loading CSV file: data\B0702T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0703T.csv
+Loading CSV file: data\B0703T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0801T.csv
+Loading CSV file: data\B0801T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0802T.csv
+Loading CSV file: data\B0802T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0803T.csv
+Loading CSV file: data\B0803T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Loading: B0901T.csv
+Loading CSV file: data\B0901T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0902T.csv
+Loading CSV file: data\B0902T.csv
+Created 120 windows with shape (120, 6, 1000)
+Label distribution: [60 60]
+
+Loading: B0903T.csv
+Loading CSV file: data\B0903T.csv
+Created 160 windows with shape (160, 6, 1000)
+Label distribution: [80 80]
+
+Total data loaded: 3680 epochs
+Loaded data: (3680, 6, 1000), labels: (3680,)
+Label distribution: [1840 1840]
+
+Using device: cpu
+Training samples: 2576
+Validation samples: 552
+Test samples: 552
+Using 6 EEG channels
+Batch size: 32, Epochs: 120
+
+============================================================
+STARTING TRAINING
+============================================================
+Training with 2576 samples (balanced sampler), validating with 552 samples
+Using device: cpu
+Model: SimpleEEGNet1D
+Optimizer: AdamW with lr=0.0007, weight_decay=0.002
+------------------------------------------------------------
+Class counts: [1288.0, 1288.0] | Class weights: [1.0, 1.0]
+Epoch 1/40: train_loss=0.1806, train_acc=0.5101, train_kappa=0.0202, val_acc=0.5380, kappa=0.0761, lr=0.000197
+  >>> New best kappa: 0.0761
+Epoch 2/40: train_loss=0.1765, train_acc=0.5214, train_kappa=0.0365, val_acc=0.5924, kappa=0.1848, lr=0.000366
+  >>> New best kappa: 0.1848
+Epoch 3/40: train_loss=0.1721, train_acc=0.5520, train_kappa=0.1032, val_acc=0.6196, kappa=0.2391, lr=0.000633
+  >>> New best kappa: 0.2391
+Epoch 4/40: train_loss=0.1701, train_acc=0.5532, train_kappa=0.1062, val_acc=0.5815, kappa=0.1630, lr=0.000982
+Epoch 5/40: train_loss=0.1720, train_acc=0.5606, train_kappa=0.1210, val_acc=0.6123, kappa=0.2246, lr=0.001387
+Epoch 6/40: train_loss=0.1677, train_acc=0.5633, train_kappa=0.1251, val_acc=0.6123, kappa=0.2246, lr=0.001823
+Epoch 7/40: train_loss=0.1654, train_acc=0.5835, train_kappa=0.1669, val_acc=0.6322, kappa=0.2645, lr=0.002258
+  >>> New best kappa: 0.2645
+Epoch 8/40: train_loss=0.1616, train_acc=0.6044, train_kappa=0.2089, val_acc=0.6196, kappa=0.2391, lr=0.002663
+Epoch 9/40: train_loss=0.1643, train_acc=0.5959, train_kappa=0.1917, val_acc=0.5707, kappa=0.1413, lr=0.003011
+Epoch 10/40: train_loss=0.1650, train_acc=0.5796, train_kappa=0.1592, val_acc=0.6413, kappa=0.2826, lr=0.003277
+  >>> New best kappa: 0.2826
+Epoch 11/40: train_loss=0.1637, train_acc=0.5955, train_kappa=0.1902, val_acc=0.5815, kappa=0.1630, lr=0.003444
+Epoch 12/40: train_loss=0.1570, train_acc=0.5901, train_kappa=0.1801, val_acc=0.6413, kappa=0.2826, lr=0.003500
+Epoch 13/40: train_loss=0.1617, train_acc=0.6099, train_kappa=0.2196, val_acc=0.5580, kappa=0.1159, lr=0.003489
+Epoch 14/40: train_loss=0.1607, train_acc=0.6083, train_kappa=0.2137, val_acc=0.6359, kappa=0.2717, lr=0.003456
+Epoch 15/40: train_loss=0.1562, train_acc=0.6207, train_kappa=0.2408, val_acc=0.6938, kappa=0.3877, lr=0.003401
+  >>> New best kappa: 0.3877
+Epoch 16/40: train_loss=0.1541, train_acc=0.6273, train_kappa=0.2547, val_acc=0.6848, kappa=0.3696, lr=0.003326
+Epoch 17/40: train_loss=0.1533, train_acc=0.6192, train_kappa=0.2369, val_acc=0.6812, kappa=0.3623, lr=0.003230
+Epoch 18/40: train_loss=0.1518, train_acc=0.6417, train_kappa=0.2826, val_acc=0.6721, kappa=0.3442, lr=0.003117
+Epoch 19/40: train_loss=0.1522, train_acc=0.6510, train_kappa=0.3021, val_acc=0.7011, kappa=0.4022, lr=0.002986
+  >>> New best kappa: 0.4022
+Epoch 20/40: train_loss=0.1502, train_acc=0.6355, train_kappa=0.2697, val_acc=0.6793, kappa=0.3587, lr=0.002839
+Epoch 21/40: train_loss=0.1472, train_acc=0.6634, train_kappa=0.3255, val_acc=0.7065, kappa=0.4130, lr=0.002679
+  >>> New best kappa: 0.4130
+Epoch 22/40: train_loss=0.1445, train_acc=0.6774, train_kappa=0.3545, val_acc=0.7029, kappa=0.4058, lr=0.002507
+Epoch 23/40: train_loss=0.1450, train_acc=0.6782, train_kappa=0.3564, val_acc=0.6812, kappa=0.3623, lr=0.002326
+Epoch 24/40: train_loss=0.1444, train_acc=0.6409, train_kappa=0.2818, val_acc=0.6685, kappa=0.3370, lr=0.002137
+Epoch 25/40: train_loss=0.1431, train_acc=0.6755, train_kappa=0.3510, val_acc=0.7047, kappa=0.4094, lr=0.001944
+Epoch 26/40: train_loss=0.1448, train_acc=0.6572, train_kappa=0.3140, val_acc=0.7029, kappa=0.4058, lr=0.001748
+Epoch 27/40: train_loss=0.1406, train_acc=0.6483, train_kappa=0.2965, val_acc=0.6975, kappa=0.3949, lr=0.001552
+Epoch 28/40: train_loss=0.1437, train_acc=0.6731, train_kappa=0.3461, val_acc=0.6902, kappa=0.3804, lr=0.001358
+Epoch 29/40: train_loss=0.1422, train_acc=0.6665, train_kappa=0.3331, val_acc=0.7101, kappa=0.4203, lr=0.001170
+  >>> New best kappa: 0.4203
+Epoch 30/40: train_loss=0.1425, train_acc=0.6584, train_kappa=0.3168, val_acc=0.7101, kappa=0.4203, lr=0.000989
+Epoch 31/40: train_loss=0.1379, train_acc=0.6782, train_kappa=0.3553, val_acc=0.7192, kappa=0.4384, lr=0.000817
+  >>> New best kappa: 0.4384
+Epoch 32/40: train_loss=0.1411, train_acc=0.6595, train_kappa=0.3190, val_acc=0.7138, kappa=0.4275, lr=0.000657
+Epoch 33/40: train_loss=0.1411, train_acc=0.6828, train_kappa=0.3651, val_acc=0.7228, kappa=0.4457, lr=0.000511
+  >>> New best kappa: 0.4457
+Epoch 34/40: train_loss=0.1427, train_acc=0.6673, train_kappa=0.3347, val_acc=0.7138, kappa=0.4275, lr=0.000380
+Epoch 35/40: train_loss=0.1423, train_acc=0.6673, train_kappa=0.3346, val_acc=0.7047, kappa=0.4094, lr=0.000267
+Epoch 36/40: train_loss=0.1414, train_acc=0.6661, train_kappa=0.3319, val_acc=0.7029, kappa=0.4058, lr=0.000172
+Epoch 37/40: train_loss=0.1367, train_acc=0.6778, train_kappa=0.3555, val_acc=0.7047, kappa=0.4094, lr=0.000097
+Epoch 38/40: train_loss=0.1408, train_acc=0.6910, train_kappa=0.3815, val_acc=0.7083, kappa=0.4167, lr=0.000043
+Epoch 39/40: train_loss=0.1368, train_acc=0.6782, train_kappa=0.3555, val_acc=0.7047, kappa=0.4094, lr=0.000011
+Epoch 40/40: train_loss=0.1353, train_acc=0.6995, train_kappa=0.3996, val_acc=0.7011, kappa=0.4022, lr=0.000000
+
+Training completed. Best kappa: 0.4457
+
+============================================================
+EVALUATING ON TEST SET
+============================================================
+
+============================================================
+FINAL TEST RESULTS:
+============================================================
+  Accuracy: 0.7482 (74.82%)
+  Cohen's Kappa: 0.4964
+
+Confusion Matrix:
+[[222  54]
+ [ 85 191]]
+============================================================
+

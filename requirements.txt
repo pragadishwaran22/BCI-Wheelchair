@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+mne
+torch
+torchvision
+tqdm
+scikit-learn
+librosa
+matplotlib
+seaborn
+pyriemann
+flask
+werkzeug

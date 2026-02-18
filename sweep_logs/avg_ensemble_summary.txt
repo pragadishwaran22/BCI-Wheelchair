@@ -1,0 +1,6 @@
+paths: ['models/sweep_top_a_lr5e-4_wd5e-4.pth', 'models/sweep_top_b_lr3e-4_wd1e-3.pth', 'models/sweep_top_c_lr7e-4_wd2e-3.pth']
+Accuracy: 0.5018
+Kappa: 0.0036
+Confusion matrix:
+[[  1 275]
+ [  0 276]]

@@ -1,0 +1,20 @@
+paths: ['models/model_a_lr5e-4_wd5e-4.pth', 'models/model_b_lr3e-4_wd1e-3.pth', 'models/model_c_lr7e-4_wd2e-3.pth']
+Accuracy: 0.7138
+Kappa: 0.4275
+Precision_macro: 0.7356
+Recall_macro: 0.7138
+F1_macro: 0.7070
+Confusion matrix:
+[[239  37]
+ [121 155]]
+
+Per-class report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.87      0.75       276
+           1       0.81      0.56      0.66       276
+
+    accuracy                           0.71       552
+   macro avg       0.74      0.71      0.71       552
+weighted avg       0.74      0.71      0.71       552
+

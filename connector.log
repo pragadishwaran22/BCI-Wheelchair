@@ -1,0 +1,8 @@
+2026-02-18 22:51:05,685 - INFO - === BCI Unity Connector Started ===
+2026-02-18 22:51:05,686 - INFO - Timestamp: 2026-02-18 22:51:05.686050
+2026-02-18 22:51:05,686 - INFO - Configuration - Unity IP: 127.0.0.1, Port: 5055
+2026-02-18 22:51:05,686 - INFO - Initializing UDP socket connection...
+2026-02-18 22:51:05,686 - INFO - Preparing to send command: 'LEFT' to 127.0.0.1:5055
+2026-02-18 22:51:05,686 - INFO - Command 'LEFT' sent successfully to Unity at 127.0.0.1:5055
+2026-02-18 22:51:05,686 - INFO - Socket connection closed
+2026-02-18 22:51:05,686 - INFO - === BCI Unity Connector Completed Successfully ===

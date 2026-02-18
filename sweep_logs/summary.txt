@@ -1,0 +1,9 @@
+lr3e-04_wd5e-04,0.0003,0.0005,0,0.6957,0.3913,sweep_logs\lr3e-04_wd5e-04.log
+lr3e-04_wd1e-03,0.0003,0.001,0,0.7482,0.4964,sweep_logs\lr3e-04_wd1e-03.log
+lr3e-04_wd2e-03,0.0003,0.002,0,0.7264,0.4529,sweep_logs\lr3e-04_wd2e-03.log
+lr5e-04_wd5e-04,0.0005,0.0005,0,0.75,0.5,sweep_logs\lr5e-04_wd5e-04.log
+lr5e-04_wd1e-03,0.0005,0.001,0,0.7283,0.4565,sweep_logs\lr5e-04_wd1e-03.log
+lr5e-04_wd2e-03,0.0005,0.002,0,0.7174,0.4348,sweep_logs\lr5e-04_wd2e-03.log
+lr7e-04_wd5e-04,0.0007,0.0005,0,0.7409,0.4819,sweep_logs\lr7e-04_wd5e-04.log
+lr7e-04_wd1e-03,0.0007,0.001,0,0.712,0.4239,sweep_logs\lr7e-04_wd1e-03.log
+lr7e-04_wd2e-03,0.0007,0.002,0,0.7482,0.4964,sweep_logs\lr7e-04_wd2e-03.log
